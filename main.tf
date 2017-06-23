@@ -33,7 +33,7 @@ resource "aws_elastic_beanstalk_environment" "beanstalk_environment" {
   setting {
     namespace = "aws:ec2:vpc"
     name = "ELBScheme"
-    value = "${var.elb_scehme}"
+    value = "${var.elb_scheme}"
   }
   setting {
     namespace = "aws:autoscaling:launchconfiguration"
